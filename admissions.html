@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apply for Training — Admissions | PUSH Africa</title>
+<meta name="description" content="Apply for training at PUSH Africa. A simple four-step admissions process across our Vocational, Health, Tech and Media schools. Download the application form too.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600;1,9..144,700&family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="brand-bar"><span class="c1"></span><span class="c2"></span><span class="c3"></span><span class="c4"></span></div>
+<div id="pa-header"></div>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="page-hero__bg"><img data-img="classroom" alt=""></div>
+    <div class="container page-hero__inner">
+      <nav class="breadcrumb reveal"><a href="index.html">Home</a> / <a href="schools.html">Schools</a> / <span>Apply</span></nav>
+      <span class="eyebrow on-dark reveal">Admissions</span>
+      <h1 class="mt-4 reveal reveal-d1">Apply for training</h1>
+      <p class="lead mt-5 reveal reveal-d2">Four simple steps from application to enrolment. Our admissions team supports you the whole way.</p>
+      <div class="row mt-6 reveal reveal-d3">
+        <a class="btn btn--primary" href="#apply">Start your application</a>
+        <a class="btn btn--outline-light" href="#download">Download the form</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section-sm section--white">
+    <div class="container grid g-4" style="gap:24px">
+      <div class="reveal"><div class="mono text-orange">Step 01</div><h2 class="h4 mt-3">Choose your school</h2><p class="small text-muted mt-2">Pick the pathway that matches your goals.</p></div>
+      <div class="reveal reveal-d1"><div class="mono text-orange">Step 02</div><h2 class="h4 mt-3">Apply online</h2><p class="small text-muted mt-2">Complete the short form below.</p></div>
+      <div class="reveal reveal-d2"><div class="mono text-orange">Step 03</div><h2 class="h4 mt-3">Get contacted</h2><p class="small text-muted mt-2">We confirm course, fees and dates.</p></div>
+      <div class="reveal reveal-d3"><div class="mono text-orange">Step 04</div><h2 class="h4 mt-3">Enrol &amp; begin</h2><p class="small text-muted mt-2">Start hands-on training with us.</p></div>
+    </div>
+  </section>
+
+  <!-- APPLICATION -->
+  <section class="section section--paper" id="apply">
+    <div class="container">
+      <div class="grid g-12" style="gap:clamp(32px,4vw,64px);align-items:start">
+        <div class="span-7">
+          <form class="card card--pad-lg" data-form data-form-steps data-success="Application received! Our admissions team will contact you shortly." data-redirect="thank-you.html">
+            <div class="row-between">
+              <h2 class="h3">Training application</h2>
+              <span class="mono" data-step-count>Step 1 of 4</span>
+            </div>
+
+            <div class="steps mt-6">
+              <div class="step is-active"><span class="dot">1</span><span class="lbl">Your details</span></div>
+              <div class="step"><span class="dot">2</span><span class="lbl">Programme</span></div>
+              <div class="step"><span class="dot">3</span><span class="lbl">Background</span></div>
+              <div class="step"><span class="dot">4</span><span class="lbl">Confirm</span></div>
+            </div>
+            <div style="height:4px;background:var(--sand)"><div data-step-bar style="height:100%;width:25%;background:var(--orange);transition:width .4s var(--ease)"></div></div>
+
+            <!-- STEP 1 -->
+            <div class="form-step is-active mt-7">
+              <h3 class="h4">Tell us about you</h3>
+              <div class="grid g-2 mt-5" style="gap:20px">
+                <div class="field"><label for="ap-first">First name <span class="req">*</span></label><input id="ap-first" name="first" type="text" required placeholder="Amara"></div>
+                <div class="field"><label for="ap-last">Last name <span class="req">*</span></label><input id="ap-last" name="last" type="text" required placeholder="Okonkwo"></div>
+                <div class="field"><label for="ap-email">Email <span class="req">*</span></label><input id="ap-email" name="email" type="email" required placeholder="you@example.com"></div>
+                <div class="field"><label for="ap-phone">Phone <span class="req">*</span></label><input id="ap-phone" name="phone" type="tel" required placeholder="+234 800 000 0000"></div>
+                <div class="field"><label for="ap-city">City <span class="req">*</span></label><input id="ap-city" name="city" type="text" required placeholder="Lagos"></div>
+                <div class="field"><label for="ap-dob">Date of birth</label><input id="ap-dob" name="dob" type="date"></div>
+              </div>
+            </div>
+
+            <!-- STEP 2 -->
+            <div class="form-step mt-7">
+              <h3 class="h4">Choose your programme</h3>
+              <div class="grid g-2 mt-5" style="gap:20px">
+                <div class="field"><label for="ap-school">School <span class="req">*</span></label>
+                  <select id="ap-school" name="school" required>
+                    <option value="">Select a school</option>
+                    <option>Vocational Institute</option>
+                    <option>School of Health</option>
+                    <option>School of Tech</option>
+                    <option>School of Media</option>
+                    <option>Not sure — please advise</option>
+                  </select>
+                </div>
+                <div class="field"><label for="ap-track">Preferred track <span class="req">*</span></label>
+                  <select id="ap-track" name="track" required>
+                    <option value="">Select a track</option>
+                    <option>Tailoring &amp; Fashion</option>
+                    <option>Technical &amp; Electrical</option>
+                    <option>Caregiving &amp; Patient Support</option>
+                    <option>Nursing Support</option>
+                    <option>Web &amp; Software Development</option>
+                    <option>Data &amp; Analytics</option>
+                    <option>Broadcast &amp; Presenting</option>
+                    <option>Film &amp; Video Production</option>
+                    <option>Other / advise me</option>
+                  </select>
+                </div>
+                <div class="field"><label for="ap-mode">Study mode <span class="req">*</span></label>
+                  <select id="ap-mode" name="mode" required>
+                    <option value="">Select mode</option>
+                    <option>Full-time</option><option>Part-time</option><option>Weekend</option><option>Online / hybrid</option>
+                  </select>
+                </div>
+                <div class="field"><label for="ap-start">Preferred start <span class="req">*</span></label>
+                  <select id="ap-start" name="start" required>
+                    <option value="">Select intake</option>
+                    <option>Next available intake</option><option>In 1–3 months</option>
+                    <option>In 3–6 months</option><option>Just exploring options</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field mt-5"><label for="ap-campus">Preferred location <span class="req">*</span></label>
+                <select id="ap-campus" name="campus" required>
+                  <option value="">Select location</option>
+                  <option>Lagos</option><option>Abuja</option><option>Enugu</option><option>Remote / no preference</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- STEP 3 -->
+            <div class="form-step mt-7">
+              <h3 class="h4">Your background</h3>
+              <div class="grid g-2 mt-5" style="gap:20px">
+                <div class="field"><label for="ap-edu">Highest education level <span class="req">*</span></label>
+                  <select id="ap-edu" name="education" required>
+                    <option value="">Select level</option>
+                    <option>Primary</option><option>Secondary / SSCE</option>
+                    <option>OND / NCE</option><option>HND / Bachelor's</option><option>Postgraduate</option><option>Other</option>
+                  </select>
+                </div>
+                <div class="field"><label for="ap-status">Current status <span class="req">*</span></label>
+                  <select id="ap-status" name="status" required>
+                    <option value="">Select status</option>
+                    <option>Student</option><option>Employed</option>
+                    <option>Self-employed</option><option>Unemployed</option><option>Career changer</option>
+                  </select>
+                </div>
+                <div class="field"><label for="ap-heard">How did you hear about us? <span class="req">*</span></label>
+                  <select id="ap-heard" name="heard" required>
+                    <option value="">Select one</option>
+                    <option>Social media</option><option>Friend or family</option>
+                    <option>PUSH Associate</option><option>Partner organisation</option><option>Search engine</option><option>Other</option>
+                  </select>
+                </div>
+                <div class="field"><label for="ap-ref">Referral code (if any)</label><input id="ap-ref" name="referral" type="text" placeholder="e.g. PA-1234"></div>
+              </div>
+              <div class="field mt-5"><label for="ap-goals">What do you hope to achieve? <span class="req">*</span></label><textarea id="ap-goals" name="goals" required placeholder="Tell us about your goals and why you chose this programme"></textarea></div>
+            </div>
+
+            <!-- STEP 4 -->
+            <div class="form-step mt-7">
+              <h3 class="h4">Review and confirm</h3>
+              <p class="small text-muted mt-3">Please confirm the statements below. Our admissions team will contact you within two working days.</p>
+              <div class="stack stack-4 mt-5">
+                <label class="choice"><input type="checkbox" name="consent" required><span><b>I confirm my details are accurate <span class="text-orange">*</span></b><span>The information I have provided is correct and complete.</span></span></label>
+                <label class="choice"><input type="checkbox" name="contact" required><span><b>I agree to be contacted <span class="text-orange">*</span></b><span>PUSH Africa may contact me about my application and programmes.</span></span></label>
+                <label class="choice"><input type="checkbox" name="terms" required><span><b>I accept the admissions terms <span class="text-orange">*</span></b><span>I understand fees and dates are confirmed by admissions after review.</span></span></label>
+              </div>
+              <div class="pill-note mt-6"><span class="dot"></span> Your information is used only to process your application.</div>
+            </div>
+
+            <div class="form-nav">
+              <button type="button" class="btn btn--outline" data-step-back>Back</button>
+              <button type="button" class="btn btn--primary" data-step-next>Continue</button>
+              <button type="submit" class="btn btn--primary" id="apSubmit">Submit application</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- SIDEBAR -->
+        <aside class="span-5">
+          <div class="card card--flat">
+            <span class="eyebrow">Need help?</span>
+            <h3 class="h4 mt-4">Not sure which school fits you?</h3>
+            <p class="small text-muted mt-3">Tell Ada your interests and she'll point you to the right programme.</p>
+            <button class="btn btn--navy btn--block mt-5" onclick="window.Ada && window.Ada.ask('Which school is right for me?')">Ask Ada for advice</button>
+          </div>
+          <div class="card mt-5">
+            <span class="eyebrow">Requirements</span>
+            <ul class="check-list mt-5">
+              <li>Completed application form</li>
+              <li>Basic literacy and numeracy</li>
+              <li>Valid means of identification</li>
+              <li>Relevant experience where specified</li>
+            </ul>
+            <p class="xsmall text-muted mt-5">Exact requirements are confirmed per course by our admissions team.</p>
+          </div>
+          <div class="card card--navy mt-5">
+            <h3 class="h4">Prefer to talk to us?</h3>
+            <p class="small mt-3" style="color:rgba(255,255,255,.72)">Our admissions team is available Monday to Friday.</p>
+            <div class="stack stack-3 mt-5">
+              <a class="btn btn--primary btn--block" href="contact.html">Contact admissions</a>
+              <a class="btn btn--outline-light btn--block" href="tel:+2349160006490">+234 916 0006 490</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD -->
+  <section class="section section--navy" id="download">
+    <div class="container grid g-12" style="align-items:center;gap:clamp(28px,4vw,56px)">
+      <div class="span-7">
+        <span class="eyebrow on-dark">Offline option</span>
+        <h2 class="mt-4">Download the training application form</h2>
+        <p class="mt-4" style="color:rgba(255,255,255,.75)">Prefer to apply on paper or need to share the form with someone else? Download the official PUSH Africa application form, complete it, and submit it at any of our offices.</p>
+        <div class="row mt-6">
+          <a class="btn btn--primary" href="https://pushafrica.org/wp-content/uploads/2025/04/PUSH-AFRICA-APPLICATION-FORM.pdf" target="_blank" rel="noopener">Download application form (PDF)</a>
+          <a class="btn btn--outline-light" href="contact.html">Find an office</a>
+        </div>
+      </div>
+      <div class="span-5">
+        <div class="card card--navy">
+          <span class="tag tag--yellow">Tip</span>
+          <p class="mt-5" style="color:rgba(255,255,255,.85)">Applying online is faster and lets you track your application with our team. Use the form above to get started in minutes.</p>
+          <a class="btn btn--outline-light btn--block mt-6" href="#apply">Go to the online form</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--white">
+    <div class="container grid g-12" style="gap:clamp(28px,4vw,64px);align-items:start">
+      <div class="span-4"><span class="eyebrow reveal">FAQs</span><h2 class="mt-4 reveal reveal-d1">Admissions questions</h2></div>
+      <div class="span-8">
+        <div class="accordion reveal">
+          <div class="acc-item"><button class="acc-btn" aria-expanded="false">How long does the application take? <span class="plus"></span></button><div class="acc-panel"><div class="acc-panel__inner">The online form takes about five minutes. Our team typically responds within two working days.</div></div></div>
+          <div class="acc-item"><button class="acc-btn" aria-expanded="false">Do I need to pay before applying? <span class="plus"></span></button><div class="acc-panel"><div class="acc-panel__inner">No. Applying is free. Fees are confirmed by admissions after your application is reviewed, along with available payment options.</div></div></div>
+          <div class="acc-item"><button class="acc-btn" aria-expanded="false">What are the entry requirements? <span class="plus"></span></button><div class="acc-panel"><div class="acc-panel__inner">Requirements are light and inclusive: a completed form, basic literacy and numeracy, and valid identification. Some courses ask for relevant experience.</div></div></div>
+          <div class="acc-item"><button class="acc-btn" aria-expanded="false">Is financial support available? <span class="plus"></span></button><div class="acc-panel"><div class="acc-panel__inner">Partial support, sponsorship and flexible payment arrangements are available on selected programmes. Ask our admissions team about your situation.</div></div></div>
+          <div class="acc-item"><button class="acc-btn" aria-expanded="false">Will I receive certification? <span class="plus"></span></button><div class="acc-panel"><div class="acc-panel__inner">Yes. Courses lead to recognised certification designed for career mobility, alongside a practical portfolio of work.</div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="pa-footer"></div>
+<script>window.PA_BASE = "";</script>
+<script src="assets/js/images.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/chatbot.js"></script>
+</body>
+</html>

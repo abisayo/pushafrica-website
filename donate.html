@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Donate — Support Training, Enterprise &amp; Agriculture | PUSH Africa</title>
+<meta name="description" content="Donate to PUSH Africa and fund vocational training, enterprise support and agricultural development for women and youth across Africa.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600;1,9..144,700&family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="brand-bar"><span class="c1"></span><span class="c2"></span><span class="c3"></span><span class="c4"></span></div>
+<div id="pa-header"></div>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="page-hero__bg"><img data-img="children-3" alt=""></div>
+    <div class="container page-hero__inner">
+      <nav class="breadcrumb reveal"><a href="index.html">Home</a> / <span>Donate</span></nav>
+      <span class="eyebrow on-dark reveal">Give Today</span>
+      <h1 class="mt-4 reveal reveal-d1">Your gift becomes someone's opportunity</h1>
+      <p class="lead mt-5 reveal reveal-d2">Fund training, enterprise and agriculture — and help build a poverty-free Africa by 2063.</p>
+      <div class="row mt-6 reveal reveal-d3">
+        <a class="btn btn--primary" href="#give">Donate now</a>
+        <a class="btn btn--outline-light" href="impact.html">See the impact</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATION FORM -->
+  <section class="section section--white" id="give">
+    <div class="container grid g-12" style="gap:clamp(32px,4vw,64px);align-items:start">
+      <div class="span-7">
+        <form class="card card--pad-lg" data-form data-success="Thank you for your generosity! Our team will send you secure payment details to complete your gift." data-redirect="thank-you.html">
+          <h2 class="h3">Make a donation</h2>
+          <p class="small text-muted mt-3">We'll send you secure payment options to complete your gift.</p>
+
+          <!-- Frequency -->
+          <div class="field mt-6">
+            <label>Giving frequency <span class="req">*</span></label>
+            <div class="filter-bar" id="freqRow" role="group" aria-label="Giving frequency">
+              <button type="button" class="filter-btn is-active" data-freq="One-off">One-off</button>
+              <button type="button" class="filter-btn" data-freq="Monthly">Monthly</button>
+            </div>
+            <input type="hidden" name="frequency" id="donFreq" value="One-off">
+          </div>
+
+          <!-- Amount -->
+          <div class="field mt-6">
+            <label>Amount (NGN) <span class="req">*</span></label>
+            <div class="filter-bar" id="amountRow" role="group" aria-label="Donation amount">
+              <button type="button" class="filter-btn" data-amount="5000">₦5,000</button>
+              <button type="button" class="filter-btn is-active" data-amount="25000">₦25,000</button>
+              <button type="button" class="filter-btn" data-amount="50000">₦50,000</button>
+              <button type="button" class="filter-btn" data-amount="100000">₦100,000</button>
+              <button type="button" class="filter-btn" data-amount="500000">₦500,000</button>
+            </div>
+            <input id="donAmount" name="amount" type="number" min="100" step="100" value="25000" required aria-label="Donation amount in naira" style="margin-top:12px">
+            <span class="hint">Enter any amount. International donors can give in USD — select “Other” below and we'll guide you.</span>
+          </div>
+
+          <!-- Designation -->
+          <div class="field mt-6">
+            <label for="donDesignate">Direct my gift to <span class="req">*</span></label>
+            <select id="donDesignate" name="designation" required>
+              <option value="">Select an area</option>
+              <option>Where it's needed most</option>
+              <option>Education &amp; vocational training</option>
+              <option>Entrepreneurship &amp; 10K Startup</option>
+              <option>Agriculture &amp; farmers</option>
+              <option>Strays to Stars (street youth)</option>
+              <option>General fund</option>
+            </select>
+          </div>
+
+          <hr>
+
+          <div class="grid g-2" style="gap:20px">
+            <div class="field"><label for="don-name">Full name <span class="req">*</span></label><input id="don-name" name="name" type="text" required placeholder="Your name"></div>
+            <div class="field"><label for="don-email">Email <span class="req">*</span></label><input id="don-email" name="email" type="email" required placeholder="you@example.com"></div>
+            <div class="field"><label for="don-phone">Phone</label><input id="don-phone" name="phone" type="tel" placeholder="+234 800 000 0000"></div>
+            <div class="field"><label for="don-country">Country <span class="req">*</span></label><input id="don-country" name="country" type="text" required placeholder="Nigeria"></div>
+          </div>
+
+          <label class="choice mt-6"><input type="checkbox" name="anon"><span><b>Give anonymously</b><span>We won't publish or acknowledge your name.</span></span></label>
+          <label class="choice mt-4"><input type="checkbox" name="updates" required><span><b>Keep me updated <span class="text-orange">*</span></b><span>Send me impact updates and receipts by email.</span></span></label>
+
+          <button class="btn btn--primary btn--lg btn--block mt-6" type="submit">Continue to payment</button>
+          <p class="xsmall text-muted mt-4">This demo does not process payments. Submitting sends your intent to our team, who will follow up with secure payment options.</p>
+        </form>
+      </div>
+
+      <!-- SIDEBAR -->
+      <aside class="span-5">
+        <div class="card card--navy">
+          <span class="eyebrow on-dark">Monthly giving</span>
+          <h3 class="h3 mt-4">Become a PUSH Partner</h3>
+          <p class="small mt-4" style="color:rgba(255,255,255,.75)">A regular monthly gift gives us the stability to plan intakes, train more learners and support more farmers.</p>
+          <div class="stack stack-3 mt-6">
+            <button type="button" class="btn btn--primary btn--block" onclick="document.getElementById('freqRow').querySelector('[data-freq=\'Monthly\']').click(); document.getElementById('give').scrollIntoView({behavior:'smooth'})">Set up a monthly gift</button>
+          </div>
+        </div>
+        <div class="card mt-5">
+          <span class="eyebrow">Your impact</span>
+          <div class="stack stack-5 mt-5">
+            <div><div class="mono">₦25,000</div><p class="small mt-2">Supports training materials for a learner.</p></div>
+            <div><div class="mono">₦100,000</div><p class="small mt-2">Contributes to a full course place.</p></div>
+            <div><div class="mono">₦500,000</div><p class="small mt-2">Helps equip a workshop or starter enterprise.</p></div>
+          </div>
+          <p class="xsmall text-muted mt-5">Indicative allocations. Exact use is confirmed in our impact reporting.</p>
+        </div>
+        <div class="card card--flat mt-5">
+          <span class="eyebrow">Questions?</span>
+          <p class="small text-muted mt-4">Ask Ada about giving, or contact our team directly.</p>
+          <button class="btn btn--navy btn--block mt-5" onclick="window.Ada && window.Ada.ask('How can I donate?')">Ask Ada about giving</button>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- WHERE IT GOES -->
+  <section class="section section--paper">
+    <div class="container">
+      <div class="section-head reveal"><div><span class="eyebrow">Where Your Money Goes</span><h2 class="mt-4">Your gift at work</h2></div></div>
+      <div class="grid g-3">
+        <div class="card reveal"><div class="media ratio-3-2"><img data-img="classroom-2" alt="Training"></div><h3 class="h4 mt-5">Training</h3><p class="small text-muted mt-3">Course delivery, materials, instructors and certification across four schools.</p></div>
+        <div class="card reveal reveal-d1"><div class="media ratio-3-2"><img data-img="entrepreneur-2" alt="Enterprise"></div><h3 class="h4 mt-5">Enterprise</h3><p class="small text-muted mt-3">Mentorship and seed pathways that help founders create jobs.</p></div>
+        <div class="card reveal reveal-d2"><div class="media ratio-3-2"><img data-img="farmer" alt="Agriculture"></div><h3 class="h4 mt-5">Agriculture</h3><p class="small text-muted mt-3">Practice change, cluster support and market access for farmers.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OTHER WAYS -->
+  <section class="section section--navy">
+    <div class="container">
+      <div class="section-head reveal"><div><span class="eyebrow on-dark">Other Ways to Give</span><h2 class="mt-4">Choose what works for you</h2></div></div>
+      <div class="grid g-3">
+        <div class="card card--navy reveal"><h3 class="h4" style="color:#fff">Corporate &amp; institutional</h3><p class="small mt-4" style="color:rgba(255,255,255,.72)">Sponsor a cohort, school or programme with measurable outcomes.</p><a class="link-arrow on-dark mt-5" href="get-involved.html#partner">Partner with us</a></div>
+        <div class="card card--navy reveal reveal-d1"><h3 class="h4" style="color:#fff">Legacy &amp; major gifts</h3><p class="small mt-4" style="color:rgba(255,255,255,.72)">Create a lasting legacy through a significant or planned gift.</p><a class="link-arrow on-dark mt-5" href="contact.html">Speak with our team</a></div>
+        <div class="card card--navy reveal reveal-d2"><h3 class="h4" style="color:#fff">Fundraise for us</h3><p class="small mt-4" style="color:rgba(255,255,255,.72)">Run a fundraiser with your community, campus or workplace.</p><a class="link-arrow on-dark mt-5" href="get-involved.html">Start fundraising</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--white">
+    <div class="container grid g-12" style="gap:clamp(28px,4vw,64px);align-items:start">
+      <div class="span-4"><span class="eyebrow reveal">FAQs</span><h2 class="mt-4 reveal reveal-d1">Giving questions</h2></div>
+      <div class="span-8">
+        <div class="accordion reveal">
+          <div class="acc-item"><button class="acc-btn" aria-expanded="false">Is my donation secure? <span class="plus"></span></button><div class="acc-panel"><div class="acc-panel__inner">Yes. We only use secure, traceable payment channels and will never ask for sensitive details by email or chat.</div></div></div>
+          <div class="acc-item"><button class="acc-btn" aria-expanded="false">Can I choose what my gift supports? <span class="plus"></span></button><div class="acc-panel"><div class="acc-panel__inner">Absolutely. You can direct your gift to education, entrepreneurship, agriculture, street-youth rehabilitation or our general fund.</div></div></div>
+          <div class="acc-item"><button class="acc-btn" aria-expanded="false">Can I give from outside Nigeria? <span class="plus"></span></button><div class="acc-panel"><div class="acc-panel__inner">Yes. International donors can give in USD or other currencies. Submit the form and our team will send you the right payment options.</div></div></div>
+          <div class="acc-item"><button class="acc-btn" aria-expanded="false">Will I receive a receipt? <span class="plus"></span></button><div class="acc-panel"><div class="acc-panel__inner">Yes. We send receipts and impact updates by email for every gift.</div></div></div>
+          <div class="acc-item"><button class="acc-btn" aria-expanded="false">How do I make a monthly gift? <span class="plus"></span></button><div class="acc-panel"><div class="acc-panel__inner">Select “Monthly” as your giving frequency in the form and our team will set up a recurring arrangement with you.</div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="pa-footer"></div>
+<script>window.PA_BASE = "";</script>
+<script src="assets/js/images.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/chatbot.js"></script>
+<script>
+(function () {
+  var amountRow = document.getElementById('amountRow');
+  var amountInput = document.getElementById('donAmount');
+  var freqRow = document.getElementById('freqRow');
+  var freqInput = document.getElementById('donFreq');
+
+  if (amountRow && amountInput) {
+    amountRow.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-amount]');
+      if (!b) return;
+      Array.prototype.forEach.call(amountRow.querySelectorAll('.filter-btn'), function (x) { x.classList.remove('is-active'); });
+      b.classList.add('is-active');
+      amountInput.value = b.getAttribute('data-amount');
+    });
+    amountInput.addEventListener('input', function () {
+      Array.prototype.forEach.call(amountRow.querySelectorAll('.filter-btn'), function (x) {
+        x.classList.toggle('is-active', x.getAttribute('data-amount') === amountInput.value);
+      });
+    });
+  }
+
+  if (freqRow && freqInput) {
+    freqRow.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-freq]');
+      if (!b) return;
+      Array.prototype.forEach.call(freqRow.querySelectorAll('.filter-btn'), function (x) { x.classList.remove('is-active'); });
+      b.classList.add('is-active');
+      freqInput.value = b.getAttribute('data-freq');
+    });
+  }
+})();
+</script>
+</body>
+</html>
